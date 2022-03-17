@@ -11,3 +11,5 @@ UPD. Deploy will be made with a Free dyno
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+
+git add --chmod=+x -- docker-entrypoint.sh
