@@ -23,7 +23,7 @@
         },
         "KEYCLOAK_FRONTEND_URL": {
             "description": "TODO",
-            "value": "https://sso-lumiere.herokuapp.com/auth/"
+            "value": "https://sso-detran.herokuapp.com/auth/"
         },
         "PROXY_ADDRESS_FORWARDING": {
             "description": "Set to true since we will be running behind Heroku's load balancers",
