@@ -47,11 +47,6 @@ file_env() {
 file_env 'KEYCLOAK_USER'
 file_env 'KEYCLOAK_PASSWORD'
 
-echo "Show envs"
-
-echo $KEYCLOAK_HOSTNAME
-
-
 if [ $KEYCLOAK_USER ] && [ $KEYCLOAK_PASSWORD ]; then
     /opt/jboss/keycloak/bin/add-user-keycloak.sh --user $KEYCLOAK_USER --password $KEYCLOAK_PASSWORD
 fi
