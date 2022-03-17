@@ -14,7 +14,7 @@
     "success_url": "/",
     "env": {
         "KEYCLOAK_USER": {
-            "description": "Initial Admin user name",
+            "description": "Initial Admin user name s",
             "value": "admin"
         },
         "KEYCLOAK_PASSWORD": {
